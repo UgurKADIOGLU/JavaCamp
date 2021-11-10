@@ -12,5 +12,12 @@
     <fullyQualifiedTypeName name="inheritance2.CustomerManager"/>
     <fullyQualifiedTypeName name="inheritance2.DataBaseLogger"/>
     <fullyQualifiedTypeName name="inheritance2.Logger"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="interfaces.CustomerManager"/>
+    <fullyQualifiedTypeName name="interfaces.Customer"/>
     <fullyQualifiedTypeName name="interfaces.Logger"/>
+    <fullyQualifiedTypeName name="interfaces.SmsLogger"/>
+    <fullyQualifiedTypeName name="interfaces.EmailLogger"/>
+    <fullyQualifiedTypeName name="interfaces.DataBAseLogger"/>
+    <fullyQualifiedTypeName name="interfaces.Utils"/>
 </qualifiedTypeNameHistroy>
