@@ -9,7 +9,8 @@
     <fullyQualifiedTypeName name="inheritance.customerManager"/>
     <fullyQualifiedTypeName name="inheritance.Customer"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="inheritance2.Logger"/>
     <fullyQualifiedTypeName name="inheritance2.CustomerManager"/>
     <fullyQualifiedTypeName name="inheritance2.DataBaseLogger"/>
+    <fullyQualifiedTypeName name="inheritance2.Logger"/>
+    <fullyQualifiedTypeName name="interfaces.Logger"/>
 </qualifiedTypeNameHistroy>
