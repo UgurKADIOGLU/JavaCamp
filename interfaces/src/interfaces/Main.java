@@ -9,7 +9,7 @@ public class Main {
 		customer.setId(1);
 		Logger[] logger= {new SmsLogger(),new EmailLogger(),new DataBAseLogger()};
 		CustomerManager customerManager = new CustomerManager(logger)  ;
-		customerManager.delete(customer);
+		customerManager.add(customer);
 
 	}
 
