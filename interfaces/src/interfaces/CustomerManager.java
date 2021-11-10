@@ -2,18 +2,28 @@ package interfaces;
 
 public class CustomerManager {
 	
-	Logger logger;
+	private Logger[] loggers;
 	
-	public CustomerManager(Logger logger) {
-		this.logger=logger;
+	public CustomerManager(Logger[] loggers) {
+		this.loggers=loggers;
 	}
 	
 	public void add(Customer customer) {
+		
 		System.out.println("Müþteri eklendi " + customer.getFirstName());
-		logger.log(customer.getFirstName());
+		for (Logger logger : loggers) {
+		
+		logger.log(customer.getFirstName());	
+		}
+		
+		
 	}
 
 	public void delete(Customer customer) {
-		System.out.println("Müþteri silinndi " + customer.getFirstName());
+		System.out.println("Müþteri silindi " + customer.getFirstName());
+		for (Logger logger : loggers) {
+			
+			logger.log(customer.getFirstName());	
+			}
 	}
 }

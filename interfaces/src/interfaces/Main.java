@@ -7,8 +7,9 @@ public class Main {
 		customer.setFirstName("Uður");
 		customer.setLastName("Kadýoðlu");
 		customer.setId(1);
-		CustomerManager customerManager = new CustomerManager(new SmsLogger());
-		customerManager.add(customer);
+		Logger[] logger= {new SmsLogger(),new EmailLogger(),new DataBAseLogger()};
+		CustomerManager customerManager = new CustomerManager(logger)  ;
+		customerManager.delete(customer);
 
 	}
 
