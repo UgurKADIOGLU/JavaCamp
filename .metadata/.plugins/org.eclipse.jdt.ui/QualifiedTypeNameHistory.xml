@@ -20,4 +20,6 @@
     <fullyQualifiedTypeName name="interfaces.EmailLogger"/>
     <fullyQualifiedTypeName name="interfaces.DataBAseLogger"/>
     <fullyQualifiedTypeName name="interfaces.Utils"/>
+    <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
 </qualifiedTypeNameHistroy>
