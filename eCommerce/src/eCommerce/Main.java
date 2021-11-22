@@ -12,7 +12,7 @@ public class Main {
 	public static void main(String[] args) {
 		IUserService iUserService= new UserManager(new VerifyMailManager(), new USerCheckManager(), new UserDao());
 		
-		Users user= new Users(1,"Uður","Kadýoðlu","ugrkadioglu@gmail.com","1234"); 
+		Users user= new Users(1,"Uður","Kadýoðlu","ugrkadioglu@gmail.com","1234567"); 
 		iUserService.singUp(user);
 		iUserService.singIn(user);
 		
